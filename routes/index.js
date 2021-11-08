@@ -18,5 +18,4 @@ router.get('/delete/:id', toDoController.deleteItem);
 router.get('/edit/:id', toDoController.renderEditForm);
 
 router.post('/edit/:id', toDoController.updateItem);
-
 module.exports = router;
